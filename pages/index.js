@@ -6,9 +6,6 @@ import styles from '../styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
-// conversionC = (fahrenheit - 32) * 5 / 9;
-// conversionK = conversionC + 273;
-
 function cToK(celsius) {
   var cToKTemp = Number(celsius) + 273.15
   return cToKTemp + ' \xB0K'
@@ -31,8 +28,6 @@ function fToC(fahrenheit)
     console.log(message);
   return fToCel + '\xB0C'
 } 
-
-
 
 
 export default function Home() {
@@ -61,7 +56,6 @@ export default function Home() {
       console.log('kelvin to farenheit')
     }
   }
-
   
   return (
     <>
